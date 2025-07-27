@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Memory Game</title>
+        <link rel="stylesheet" href="memoryGame.css" />
+		<link rel="icon" type="image/x-icon" href="images/memory-favicon.jpg">
+    </head>
+    <body>
+        <div class="heading"><h1>Memory Game</h1></div>
+
+        <div id="won"></div>
+
+        <div class="grid-container">
+            <div class="box" id="img0" onclick="checkIfEqual(this.id)"></div>
+
+            <div class="box" id="img1" onclick="checkIfEqual(this.id)"></div>
+
+            <div class="box" id="img2" onclick="checkIfEqual(this.id)"></div>
+
+            <div class="box" id="img3" onclick="checkIfEqual(this.id)"></div>
+
+            <div class="box" id="img4" onclick="checkIfEqual(this.id)"></div>
+
+            <div class="box" id="img5" onclick="checkIfEqual(this.id)"></div>
+
+            <div class="box" id="img6" onclick="checkIfEqual(this.id)"></div>
+
+            <div class="box" id="img7" onclick="checkIfEqual(this.id)"></div>
+
+            <div class="box" id="img8" onclick="checkIfEqual(this.id)"></div>
+
+            <div class="box" id="img9" onclick="checkIfEqual(this.id)"></div>
+
+            <div class="box" id="img10" onclick="checkIfEqual(this.id)"></div>
+
+            <div class="box" id="img11" onclick="checkIfEqual(this.id)"></div>
+
+            <div class="box" id="img12" onclick="checkIfEqual(this.id)"></div>
+
+            <div class="box" id="img13" onclick="checkIfEqual(this.id)"></div>
+
+            <div class="box" id="img14" onclick="checkIfEqual(this.id)"></div>
+
+            <div class="box" id="img15" onclick="checkIfEqual(this.id)"></div>
+        </div>
+
+        <div class="timer-class">
+            <p id="timer"></p>
+        </div>
+
+        <div class="clickButton">
+            <button type="button" class="generateRandom" id="generateRandomItem" onclick="generateItemsInBox()">Start</button>
+        </div>
+
+		<footer>
+		    <p>All the images used in this web page are from <a href="https://www.flaticon.com/" target="_blank" rel="noopener noreferrer" style="color: white;">Flaticon</a></p>
+			<p>Created by Chaithra B S |  Copyright &copy; 2025 </p>
+		</footer>
+
+        <script src="memoryGame.js"></script>
+    </body>
+</html>

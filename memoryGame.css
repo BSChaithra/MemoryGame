@@ -1,0 +1,113 @@
+*
+{
+   box-sizing: border-box;
+}
+
+body
+{
+	background-color: aliceblue;
+}
+
+.grid-container
+{
+    width: 450px;
+    height: 450px;
+    background-color: antiquewhite;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+	
+}
+
+.box
+{
+	width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.heading
+{
+	font-size: x-large;
+	text-align: center;
+	color: darkblue;
+}
+
+
+.clickButton
+{
+	text-align: center;
+	margin-top: 10px;
+}
+.generateRandom
+{
+	color: white;
+    background-color: darkblue;
+    width: 150px;
+    height: 60px;
+    font-size: x-large;
+	cursor: pointer;
+}
+.generateRandom:disabled
+{
+	background-color: grey;
+	color; white;
+	cursor: not-allowed;
+}
+ img
+{
+	margin: 15px;
+	visibility: hidden;
+	opacity: 1;
+	animation: hideAfterVisible 4s ease-in-out;
+}
+
+@keyframes hideAfterVisible
+{
+	from { visibility: visible; opacity: 1;}
+	to { visibility: hidden; opacity: 0;}
+}
+
+#won
+{
+	text-align: center;
+    color: orange;
+    font-size: xxx-large;
+    margin: 20px;
+}
+.timer-class
+{
+	text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#timer
+{
+	background-color: darkblue;
+	color: white;
+	text-align: center;
+	font-size: x-large;
+	width: 100px;
+    height: 50px;
+	align-content: center;
+}
+
+footer
+{
+	text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    font-size: large;
+}
+footer a:hover
+{
+	font-weight: bold;
+}
